@@ -1,0 +1,148 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background: #FFF;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+
+
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: #FFC48A;;
+  }
+  
+  header {
+    display: grid;
+    grid-template-columns: 70px auto ; 
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 960px;
+    background-color: #dda0dd	;   }
+  
+  header nav {
+    text-align: center;
+    width: 100%;
+    margin-top: 15px;
+  margin-right: 40px;
+  }
+  
+  header nav li  {
+    padding: 10px 20px;
+    display: inline-block;
+    transition: all 500ms;
+    margin-right: 1px;
+    font-size: 24px;
+    font-style: oblique;
+     font-weight: bold;
+     color: #b0e0e6	;
+   
+  }
+ 
+  
+   header div img {
+        float: left;
+        margin-top: 15px;
+        margin-right: 30px;
+         width: 200px ;
+     height: 70px;
+   }
+
+main{
+   /* grid-template-rows: auto auto auto; */
+    width: 100%;
+    margin: 0 auto;
+
+
+}
+
+.heroBanner {
+    height: 450px;
+    width:960px;
+    margin-right: 30px;
+    background-color: #dda0dd	;
+}
+
+.subBanner{
+    /*grid-template-columns: auto auto auto; */
+    height: 380px;
+    width:100%;
+    margin-top: 25px;
+        }
+
+ div.subBanner > img {
+        margin-right: 30px;
+        float: left;
+      }
+div.subBanner > img:last-child {
+        margin-right: 0px;
+      }
+
+.sectionBanner{
+    /*grid-template-columns: 480px 480px ; */
+    
+    margin-top: 25px;
+    margin-bottom: 25px;
+   
+}
+
+.sectionBanner >  :first-child{ 
+    float: left;
+margin-right: 20px;
+   
+}
+
+.sectionBanner > :last-child{
+
+    float: left;
+    /*grid-template-rows: 455px 455px 455px ; */
+    height: 400px;
+    margin-left: 10px;
+    width:  50%;
+}
+
+#header1 {
+    font-size: 24px;
+  margin-bottom: 10px;
+  color: #4d4c4c	;
+}
+
+.scrollableContainer {
+    padding-bottom: 10px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+    width: 80%;
+    height: 318px;
+    margin-right: 0%;
+    margin-bottom: 7px;
+    color: #808080	;
+
+}
+
+#actionBtn{
+    border: chocolate;
+  background: #773577;
+  padding: 8px 30px;
+  color: #808080	;
+  font-weight: 700;
+}
+
+#actionBtn:hover{
+    background: blue;
+    transition-delay: 350ms;
+
+}
+
+
+
+body footer{
+    clear:left;
+    background-color: #dda0dd;
+    height: 100px;
+    width: 960px;
+     z-index: 0;
+}
